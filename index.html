@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SOI CAU LO DE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Boostrap 4 -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- amchartjs -->
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <!-- DataTable -->
+    <!-- link javascript -->
+    <script src="./index.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+    <!-- Custom CSS -->
+</head>
+<body>
+    <div name="header" style="text-align:center" class="mt-4 mb-2">
+        <h1>PROJECT lolotica</h1>
+    </div>
+    <div name="contain" class="container">
+        <div class="row">
+            <div class="col-3">
+                <h3>Cài đặt</h3>
+            </div>
+        </div>
+        <div class="row" style="width:100%; text-align:center">
+                <div class="table-responsive-sm" style="margin: 0 auto;">
+                    <table class="table table-bordered text-center" id="cai_dat_cau">
+                            <tr>
+                                <td>ĐB</td>
+                                <td colspan="4" class=" text-center">
+                                        <button class="btn btn-sm btn-success setting_cau " id="1">1</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="2">2</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="3">3</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="4">4</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="5">5</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giải 1</td>
+                                <td colspan="4" class=" text-center">
+                                        <button class="btn btn-sm btn-success setting_cau " id="6">6</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="7">7</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="8">8</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="9">9</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="10">10</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giải 2</td>
+                                <td colspan="2" class=" text-center">
+                                        <button class="btn btn-sm btn-success setting_cau " id="11">11</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="12">12</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="13">13</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="14">14</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="15">15</button>
+                                </td>
+                                <td colspan="2" class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="16">16</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="17">17</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="18">18</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="19">19</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="20">20</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Giải 3</td>
+                                <td  class=" text-center">
+                                        <button class="btn btn-sm btn-success setting_cau " id="21">21</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="22">22</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="23">23</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="24">24</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="25">25</button>
+                                </td>
+                                <td colspan="2" class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="26">26</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="27">27</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="28">28</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="29">29</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="30">30</button>
+                                </td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="31">31</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="32">32</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="33">33</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="34">34</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="35">35</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  class=" text-center">
+                                        <button class="btn btn-sm btn-success setting_cau " id="36">36</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="37">37</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="38">38</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="39">39</button>
+                                        <button class="btn btn-sm btn-success setting_cau " id="40">40</button>
+                                </td>
+                                <td colspan="2" class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="41">41</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="42">42</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="43">43</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="44">44</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="45">45</button>
+                                </td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="46">46</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="47">47</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="48">48</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="49">49</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="50">50</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giải 4</td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="51">51</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="52">52</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="53">53</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="54">54</button>
+                                </td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="55">55</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="56">56</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="57">57</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="58">58</button>
+                                </td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="59">59</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="60">60</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="61">61</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="62">62</button>
+                                </td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="63">63</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="64">64</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="65">65</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="66">66</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Giải 5</td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="67">67</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="68">68</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="69">69</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="70">70</button>
+                                </td>
+                                <td colspan="2" class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="71">71</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="72">72</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="73">73</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="74">74</button>
+                                </td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="75">75</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="76">76</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="77">77</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="78">78</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="79">79</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="80">80</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="81">81</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="82">82</button>
+                                </td>
+                                <td colspan="2" class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="83">83</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="84">84</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="85">85</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="86">86</button>
+                                </td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="87">87</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="88">88</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="89">89</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="90">90</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giải 6</td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="91">91</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="92">92</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="93">93</button>
+                                </td>
+                                <td colspan="2" class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="94">94</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="95">95</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="96">96</button>
+                                </td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="97">97</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="98">98</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="99">99</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giải 7</td>
+                                <td class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="100">100</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="101">101</button>
+                                </td>
+                                <td  class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="102">102</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="103">103</button>
+                                </td>
+                                <td  class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="104">104</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="105">105</button>
+                                </td>
+                                <td  class=" text-center">
+                                    <button class="btn btn-sm btn-success setting_cau " id="106">106</button>
+                                    <button class="btn btn-sm btn-success setting_cau " id="107">107</button>
+                                </td>
+                            </tr>
+                    </table>
+                </div>
+        </div>
+        <div class="row m-5" style="font-size: large;">
+            <div class="col-2"><strong>CẦU ĐÃ CHỌN: </strong></div>
+            <div class="col-1"><span id="cau_1">...</span></div>
+            <div class="col-1"><strong>-</strong></div>
+            <div class="col-1"><span id="cau_2">...</span></div>
+        </div>
+        <button class="btn btn-danger float-right mr-5 mb-5" onclick="luu_cau()">LƯU CẦU</button>
+        <div class="row" style="width:100%; text-align:center">
+            <div class="table-responsive-sm" style="margin: 0 auto; width: 100%;" id="kq_soi">
+                <!-- <table class="table table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <td>Chủ nhật</td>
+                            <td>Thứ 2</td>
+                            <td>Thứ 3</td>
+                            <td>Thứ 4</td>
+                            <td>Thứ 5</td>
+                            <td>Thứ 6</td>
+                            <td>Thứ 7</td>                        
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="background-color: brown; height: 80px;"></td>
+                            <td style="background-color: brown; height: 30px;"></td>
+                            <td style="background-color: brown; height: 30px;"></td>
+                            <td style="background-color: brown; height: 30px;"></td>
+                            <td style="background-color: brown; height: 30px;"></td>
+                            <td style="background-color: brown; height: 30px;"></td>
+                            <td style="background-color: brown; height: 30px;"></td>
+
+                        </tr>
+                    </tbody>
+                </table> -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
